@@ -1,0 +1,116 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Страница-1" id="uxi9rTma0HhfWo2RMmZP">
+    <mxGraphModel dx="1030" dy="568" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="tTNdgM5PjT7HDWFibUnU-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Пользователь" vertex="1">
+          <mxGeometry height="60" width="120" x="150" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="tTNdgM5PjT7HDWFibUnU-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Интерфейс системы" vertex="1">
+          <mxGeometry height="60" width="120" x="310" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="tTNdgM5PjT7HDWFibUnU-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Backend (БД)" vertex="1">
+          <mxGeometry height="60" width="120" x="470" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="tTNdgM5PjT7HDWFibUnU-5" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;" target="tTNdgM5PjT7HDWFibUnU-2" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="210" y="410" as="sourcePoint" />
+            <mxPoint x="260" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tTNdgM5PjT7HDWFibUnU-6" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;" target="tTNdgM5PjT7HDWFibUnU-3" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="370" y="410" as="sourcePoint" />
+            <mxPoint x="380" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tTNdgM5PjT7HDWFibUnU-7" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;" target="tTNdgM5PjT7HDWFibUnU-4" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="530" y="410" as="sourcePoint" />
+            <mxPoint x="470" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tTNdgM5PjT7HDWFibUnU-8" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="210" y="240" as="sourcePoint" />
+            <mxPoint x="370" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tTNdgM5PjT7HDWFibUnU-11" connectable="0" parent="tTNdgM5PjT7HDWFibUnU-8" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Создать заявку()" vertex="1">
+          <mxGeometry relative="1" x="-0.1083" y="3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tTNdgM5PjT7HDWFibUnU-9" edge="1" parent="1" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="390" y="280" as="sourcePoint" />
+            <mxPoint x="530" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tTNdgM5PjT7HDWFibUnU-10" connectable="0" parent="tTNdgM5PjT7HDWFibUnU-9" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Данные заявки" vertex="1">
+          <mxGeometry relative="1" x="0.035" y="-4" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tTNdgM5PjT7HDWFibUnU-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="40" width="10" x="370" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="tTNdgM5PjT7HDWFibUnU-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="60" width="10" x="200" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="tTNdgM5PjT7HDWFibUnU-15" edge="1" parent="1" source="tTNdgM5PjT7HDWFibUnU-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" target="tTNdgM5PjT7HDWFibUnU-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="170" y="195" />
+              <mxPoint x="170" y="225" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tTNdgM5PjT7HDWFibUnU-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="ввод данных" vertex="1">
+          <mxGeometry height="30" width="60" x="110" y="195" as="geometry" />
+        </mxCell>
+        <mxCell id="tTNdgM5PjT7HDWFibUnU-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="50" width="10" x="530" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="tTNdgM5PjT7HDWFibUnU-18" edge="1" parent="1" source="tTNdgM5PjT7HDWFibUnU-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="560" y="290" />
+              <mxPoint x="560" y="310" />
+            </Array>
+            <mxPoint x="540" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tTNdgM5PjT7HDWFibUnU-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Проверка и запись данных" vertex="1">
+          <mxGeometry height="30" width="60" x="560" y="285" as="geometry" />
+        </mxCell>
+        <mxCell id="tTNdgM5PjT7HDWFibUnU-20" edge="1" parent="1" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="380" y="370" as="sourcePoint" />
+            <mxPoint x="210" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tTNdgM5PjT7HDWFibUnU-21" connectable="0" parent="tTNdgM5PjT7HDWFibUnU-20" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Новая заявка" vertex="1">
+          <mxGeometry relative="1" x="0.035" y="-4" as="geometry">
+            <mxPoint y="-6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tTNdgM5PjT7HDWFibUnU-22" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="530" y="330" as="sourcePoint" />
+            <mxPoint x="370" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tTNdgM5PjT7HDWFibUnU-23" connectable="0" parent="tTNdgM5PjT7HDWFibUnU-22" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Обновить данные()" vertex="1">
+          <mxGeometry relative="1" x="-0.1083" y="3" as="geometry">
+            <mxPoint x="-1" y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tTNdgM5PjT7HDWFibUnU-24" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="40" width="10" x="370" y="330" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
