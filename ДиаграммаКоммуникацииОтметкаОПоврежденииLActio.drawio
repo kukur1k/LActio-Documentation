@@ -1,11 +1,20 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Страница-1" id="B7OUH0b0f1MfNGRyHLLm">
-    <mxGraphModel dx="981" dy="541" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="800" math="0" shadow="0">
+    <mxGraphModel dx="824" dy="454" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="800" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="jsLL_r7Ol4POs9nzLG5a-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Пользователь" vertex="1">
           <mxGeometry height="60" width="120" x="200" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="jsLL_r7Ol4POs9nzLG5a-19" edge="1" parent="1" source="jsLL_r7Ol4POs9nzLG5a-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" target="jsLL_r7Ol4POs9nzLG5a-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jsLL_r7Ol4POs9nzLG5a-20" edge="1" parent="1" source="jsLL_r7Ol4POs9nzLG5a-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" target="jsLL_r7Ol4POs9nzLG5a-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jsLL_r7Ol4POs9nzLG5a-29" edge="1" parent="1" source="jsLL_r7Ol4POs9nzLG5a-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" target="jsLL_r7Ol4POs9nzLG5a-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jsLL_r7Ol4POs9nzLG5a-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Поле добавления маркеров повреждений" vertex="1">
           <mxGeometry height="60" width="120" x="500" y="170" as="geometry" />
@@ -13,11 +22,8 @@
         <mxCell id="jsLL_r7Ol4POs9nzLG5a-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="БД" vertex="1">
           <mxGeometry height="60" width="120" x="200" y="450" as="geometry" />
         </mxCell>
-        <mxCell id="jsLL_r7Ol4POs9nzLG5a-4" edge="1" parent="1" source="jsLL_r7Ol4POs9nzLG5a-1" style="endArrow=classic;html=1;rounded=0;" target="jsLL_r7Ol4POs9nzLG5a-2" value="">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="460" y="220" as="sourcePoint" />
-            <mxPoint x="510" y="170" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="jsLL_r7Ol4POs9nzLG5a-27" edge="1" parent="1" source="jsLL_r7Ol4POs9nzLG5a-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" target="jsLL_r7Ol4POs9nzLG5a-3">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jsLL_r7Ol4POs9nzLG5a-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Модальное окно маркера" vertex="1">
           <mxGeometry height="60" width="120" x="500" y="450" as="geometry" />
@@ -25,20 +31,8 @@
         <mxCell id="jsLL_r7Ol4POs9nzLG5a-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1. Поставить маркер" vertex="1">
           <mxGeometry height="30" width="120" x="350" y="170" as="geometry" />
         </mxCell>
-        <mxCell id="jsLL_r7Ol4POs9nzLG5a-7" edge="1" parent="1" source="jsLL_r7Ol4POs9nzLG5a-2" style="endArrow=classic;html=1;rounded=0;" target="jsLL_r7Ol4POs9nzLG5a-5" value="">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="710" y="300" as="sourcePoint" />
-            <mxPoint x="760" y="250" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="jsLL_r7Ol4POs9nzLG5a-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="2. Открыть окно добавления" vertex="1">
-          <mxGeometry height="30" width="120" x="570" y="260" as="geometry" />
-        </mxCell>
-        <mxCell id="jsLL_r7Ol4POs9nzLG5a-9" edge="1" parent="1" source="jsLL_r7Ol4POs9nzLG5a-5" style="endArrow=classic;html=1;rounded=0;" target="jsLL_r7Ol4POs9nzLG5a-3" value="">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="370" y="350" as="sourcePoint" />
-            <mxPoint x="420" y="300" as="targetPoint" />
-          </mxGeometry>
+          <mxGeometry height="30" width="120" x="580" y="260" as="geometry" />
         </mxCell>
         <mxCell id="jsLL_r7Ol4POs9nzLG5a-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1" value="[Все поля заполнены корректно]" vertex="1">
           <mxGeometry height="30" width="140" x="345" y="490" as="geometry" />
@@ -46,29 +40,56 @@
         <mxCell id="jsLL_r7Ol4POs9nzLG5a-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="3. Зафиксировать повреждение" vertex="1">
           <mxGeometry height="30" width="130" x="345" y="520" as="geometry" />
         </mxCell>
-        <mxCell id="jsLL_r7Ol4POs9nzLG5a-12" edge="1" parent="1" source="jsLL_r7Ol4POs9nzLG5a-5" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" target="jsLL_r7Ol4POs9nzLG5a-2" value="">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="710" y="330" as="sourcePoint" />
-            <mxPoint x="530" y="330" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="jsLL_r7Ol4POs9nzLG5a-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="3. Отрисовать маркер" vertex="1">
           <mxGeometry height="30" width="130" x="400" y="260" as="geometry" />
         </mxCell>
         <mxCell id="jsLL_r7Ol4POs9nzLG5a-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Общий интерфейс (браузер)" vertex="1">
           <mxGeometry height="60" width="120" x="200" y="250" as="geometry" />
         </mxCell>
-        <mxCell id="jsLL_r7Ol4POs9nzLG5a-15" edge="1" parent="1" source="jsLL_r7Ol4POs9nzLG5a-5" style="endArrow=classic;html=1;rounded=0;" target="jsLL_r7Ol4POs9nzLG5a-14" value="">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="410" y="600" as="sourcePoint" />
-            <mxPoint x="460" y="550" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="jsLL_r7Ol4POs9nzLG5a-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1" value="[Поля заполнены некорректно]" vertex="1">
           <mxGeometry height="30" width="170" x="200" y="350" as="geometry" />
         </mxCell>
         <mxCell id="jsLL_r7Ol4POs9nzLG5a-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="4. Вывести ошибку о необходимости правильно заполнить все поля" vertex="1">
           <mxGeometry height="30" width="280" x="130" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="jsLL_r7Ol4POs9nzLG5a-22" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="520" y="330" as="sourcePoint" />
+            <mxPoint x="520" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jsLL_r7Ol4POs9nzLG5a-23" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="610" y="300" as="sourcePoint" />
+            <mxPoint x="610.56" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jsLL_r7Ol4POs9nzLG5a-25" edge="1" parent="1" source="jsLL_r7Ol4POs9nzLG5a-14" style="endArrow=none;html=1;rounded=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" target="jsLL_r7Ol4POs9nzLG5a-5" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="440" y="420" as="sourcePoint" />
+            <mxPoint x="490" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jsLL_r7Ol4POs9nzLG5a-26" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="375" y="380" />
+            </Array>
+            <mxPoint x="375" y="380" as="sourcePoint" />
+            <mxPoint x="345" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jsLL_r7Ol4POs9nzLG5a-28" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="427.36" y="470" as="sourcePoint" />
+            <mxPoint x="392.64" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jsLL_r7Ol4POs9nzLG5a-30" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="210" as="sourcePoint" />
+            <mxPoint x="435.28" y="210" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
